@@ -14,6 +14,7 @@
     HiJackMgr * hiJackMgr;
     
 }
+- (IBAction)knap:(UIButton *)sender;
 
 @property (weak, nonatomic) IBOutlet UITextView *lolText;
 

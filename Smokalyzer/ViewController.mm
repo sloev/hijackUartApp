@@ -32,7 +32,7 @@
     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
         
         //Do any updates to your label here
-        self.lolText.text=[NSString stringWithFormat:@"%@%c",self.lolText.text,val];
+        self.lolText.text=[NSString stringWithFormat:@"%@_%c",self.lolText.text,val];
         
     }];
     return 0;
@@ -47,4 +47,8 @@
       [super viewDidUnload];
 }
 
+- (IBAction)knap:(UIButton *)sender {
+    [hiJackMgr send:180];
+
+}
 @end
