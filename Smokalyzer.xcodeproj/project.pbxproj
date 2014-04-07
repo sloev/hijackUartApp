@@ -23,6 +23,9 @@
 		49DFC10D163F72FF00251742 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49DFC108163F72FF00251742 /* CADebugMacros.cpp */; };
 		49DFC115163F7BF500251742 /* HiJackMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49DFC114163F7BF500251742 /* HiJackMgr.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		49DFC117163F7D5100251742 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DFC116163F7D5100251742 /* AudioToolbox.framework */; };
+		8F8A589B18F19AA3008B61EA /* devices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A589A18F19AA3008B61EA /* devices.m */; };
+		8F8A589E18F19ABA008B61EA /* samples.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A589D18F19ABA008B61EA /* samples.m */; };
+		8F8A58A118F19AE2008B61EA /* newSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A58A018F19AE2008B61EA /* newSample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,12 @@
 		49DFC10B163F72FF00251742 /* CAXException.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = CAXException.h; path = Smokalyzer/CAXException.h; sourceTree = "<group>"; };
 		49DFC114163F7BF500251742 /* HiJackMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = HiJackMgr.mm; path = Smokalyzer/HiJackMgr.mm; sourceTree = "<group>"; };
 		49DFC116163F7D5100251742 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8F8A589918F19AA3008B61EA /* devices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = devices.h; path = ../devices.h; sourceTree = "<group>"; };
+		8F8A589A18F19AA3008B61EA /* devices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = devices.m; path = ../devices.m; sourceTree = "<group>"; };
+		8F8A589C18F19ABA008B61EA /* samples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = samples.h; path = ../samples.h; sourceTree = "<group>"; };
+		8F8A589D18F19ABA008B61EA /* samples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = samples.m; path = ../samples.m; sourceTree = "<group>"; };
+		8F8A589F18F19AE2008B61EA /* newSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newSample.h; path = ../newSample.h; sourceTree = "<group>"; };
+		8F8A58A018F19AE2008B61EA /* newSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newSample.m; path = ../newSample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		49DFC0DB163F6CD700251742 /* Smokalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				8F8A589F18F19AE2008B61EA /* newSample.h */,
+				8F8A58A018F19AE2008B61EA /* newSample.m */,
+				8F8A589C18F19ABA008B61EA /* samples.h */,
+				8F8A589D18F19ABA008B61EA /* samples.m */,
+				8F8A589918F19AA3008B61EA /* devices.h */,
+				8F8A589A18F19AA3008B61EA /* devices.m */,
 				49DFC0ED163F6CD700251742 /* MainStoryboard_iPhone.storyboard */,
 				49DFC0F0163F6CD700251742 /* MainStoryboard_iPad.storyboard */,
 				49DFC0F3163F6CD700251742 /* ViewController.h */,
@@ -209,11 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DFC0E2163F6CD700251742 /* main.m in Sources */,
+				8F8A589E18F19ABA008B61EA /* samples.m in Sources */,
 				49DFC0E6163F6CD700251742 /* AppDelegate.mm in Sources */,
 				49DFC0F5163F6CD700251742 /* ViewController.mm in Sources */,
 				49DFC10C163F72FF00251742 /* aurio_helper.cpp in Sources */,
+				8F8A589B18F19AA3008B61EA /* devices.m in Sources */,
 				49DFC10D163F72FF00251742 /* CADebugMacros.cpp in Sources */,
 				49DFC115163F7BF500251742 /* HiJackMgr.mm in Sources */,
+				8F8A58A118F19AE2008B61EA /* newSample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
