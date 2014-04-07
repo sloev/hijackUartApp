@@ -25,7 +25,12 @@
 		49DFC117163F7D5100251742 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DFC116163F7D5100251742 /* AudioToolbox.framework */; };
 		8F8A589B18F19AA3008B61EA /* devices.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A589A18F19AA3008B61EA /* devices.m */; };
 		8F8A589E18F19ABA008B61EA /* samples.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A589D18F19ABA008B61EA /* samples.m */; };
-		8F8A58A118F19AE2008B61EA /* newSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A58A018F19AE2008B61EA /* newSample.m */; };
+		8F8A58A418F28975008B61EA /* newSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A58A318F28975008B61EA /* newSample.m */; };
+		8F8A58AA18F29DD9008B61EA /* NewSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A58A918F29DD9008B61EA /* NewSample.m */; };
+		8FA58DCE18F2A42B00FC432B /* GasSamples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FA58DCC18F2A42B00FC432B /* GasSamples.xcdatamodeld */; };
+		8FA58DD818F2A54600FC432B /* GasSamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA58DD718F2A54600FC432B /* GasSamples.m */; };
+		8FA58DDB18F2A54600FC432B /* GasSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA58DDA18F2A54600FC432B /* GasSample.m */; };
+		8FA58DDD18F2A5D200FC432B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA58DDC18F2A5D100FC432B /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +64,16 @@
 		8F8A589A18F19AA3008B61EA /* devices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = devices.m; path = ../devices.m; sourceTree = "<group>"; };
 		8F8A589C18F19ABA008B61EA /* samples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = samples.h; path = ../samples.h; sourceTree = "<group>"; };
 		8F8A589D18F19ABA008B61EA /* samples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = samples.m; path = ../samples.m; sourceTree = "<group>"; };
-		8F8A589F18F19AE2008B61EA /* newSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newSample.h; path = ../newSample.h; sourceTree = "<group>"; };
-		8F8A58A018F19AE2008B61EA /* newSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newSample.m; path = ../newSample.m; sourceTree = "<group>"; };
+		8F8A58A218F28975008B61EA /* newSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newSample.h; path = ../newSample.h; sourceTree = "<group>"; };
+		8F8A58A318F28975008B61EA /* newSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newSample.m; path = ../newSample.m; sourceTree = "<group>"; };
+		8F8A58A818F29DD9008B61EA /* NewSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSample.h; sourceTree = "<group>"; };
+		8F8A58A918F29DD9008B61EA /* NewSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSample.m; sourceTree = "<group>"; };
+		8FA58DCD18F2A42B00FC432B /* GasSamples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GasSamples.xcdatamodel; sourceTree = "<group>"; };
+		8FA58DD618F2A54600FC432B /* GasSamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasSamples.h; sourceTree = "<group>"; };
+		8FA58DD718F2A54600FC432B /* GasSamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasSamples.m; sourceTree = "<group>"; };
+		8FA58DD918F2A54600FC432B /* GasSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasSample.h; sourceTree = "<group>"; };
+		8FA58DDA18F2A54600FC432B /* GasSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasSample.m; sourceTree = "<group>"; };
+		8FA58DDC18F2A5D100FC432B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA58DDD18F2A5D200FC432B /* CoreData.framework in Frameworks */,
 				49DFC117163F7D5100251742 /* AudioToolbox.framework in Frameworks */,
 				49DFC0D6163F6CD700251742 /* UIKit.framework in Frameworks */,
 				49DFC0D8163F6CD700251742 /* Foundation.framework in Frameworks */,
@@ -100,6 +114,7 @@
 		49DFC0D4163F6CD700251742 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8FA58DDC18F2A5D100FC432B /* CoreData.framework */,
 				49DFC0D5163F6CD700251742 /* UIKit.framework */,
 				49DFC0D7163F6CD700251742 /* Foundation.framework */,
 				49DFC0D9163F6CD700251742 /* CoreGraphics.framework */,
@@ -110,13 +125,15 @@
 		49DFC0DB163F6CD700251742 /* Smokalyzer */ = {
 			isa = PBXGroup;
 			children = (
-				8F8A589F18F19AE2008B61EA /* newSample.h */,
-				8F8A58A018F19AE2008B61EA /* newSample.m */,
+				8F8A58A218F28975008B61EA /* newSample.h */,
+				8F8A58A318F28975008B61EA /* newSample.m */,
 				8F8A589C18F19ABA008B61EA /* samples.h */,
 				8F8A589D18F19ABA008B61EA /* samples.m */,
 				8F8A589918F19AA3008B61EA /* devices.h */,
 				8F8A589A18F19AA3008B61EA /* devices.m */,
 				49DFC0ED163F6CD700251742 /* MainStoryboard_iPhone.storyboard */,
+				8F8A58A818F29DD9008B61EA /* NewSample.h */,
+				8F8A58A918F29DD9008B61EA /* NewSample.m */,
 				49DFC0F0163F6CD700251742 /* MainStoryboard_iPad.storyboard */,
 				49DFC0F3163F6CD700251742 /* ViewController.h */,
 				49DFC0F4163F6CD700251742 /* ViewController.mm */,
@@ -152,8 +169,21 @@
 				49DFC0FF163F706000251742 /* HiJackMgr.h */,
 				49DFC0E4163F6CD700251742 /* AppDelegate.h */,
 				49DFC0E5163F6CD700251742 /* AppDelegate.mm */,
+				8FA58DD518F2A4F000FC432B /* core data */,
 			);
 			name = HiJackLib;
+			sourceTree = "<group>";
+		};
+		8FA58DD518F2A4F000FC432B /* core data */ = {
+			isa = PBXGroup;
+			children = (
+				8FA58DD918F2A54600FC432B /* GasSample.h */,
+				8FA58DDA18F2A54600FC432B /* GasSample.m */,
+				8FA58DD618F2A54600FC432B /* GasSamples.h */,
+				8FA58DD718F2A54600FC432B /* GasSamples.m */,
+				8FA58DCC18F2A42B00FC432B /* GasSamples.xcdatamodeld */,
+			);
+			name = "core data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,13 +255,17 @@
 			files = (
 				49DFC0E2163F6CD700251742 /* main.m in Sources */,
 				8F8A589E18F19ABA008B61EA /* samples.m in Sources */,
+				8F8A58AA18F29DD9008B61EA /* NewSample.m in Sources */,
 				49DFC0E6163F6CD700251742 /* AppDelegate.mm in Sources */,
 				49DFC0F5163F6CD700251742 /* ViewController.mm in Sources */,
 				49DFC10C163F72FF00251742 /* aurio_helper.cpp in Sources */,
+				8FA58DCE18F2A42B00FC432B /* GasSamples.xcdatamodeld in Sources */,
 				8F8A589B18F19AA3008B61EA /* devices.m in Sources */,
 				49DFC10D163F72FF00251742 /* CADebugMacros.cpp in Sources */,
 				49DFC115163F7BF500251742 /* HiJackMgr.mm in Sources */,
-				8F8A58A118F19AE2008B61EA /* newSample.m in Sources */,
+				8F8A58A418F28975008B61EA /* newSample.m in Sources */,
+				8FA58DDB18F2A54600FC432B /* GasSample.m in Sources */,
+				8FA58DD818F2A54600FC432B /* GasSamples.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +414,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FA58DCC18F2A42B00FC432B /* GasSamples.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FA58DCD18F2A42B00FC432B /* GasSamples.xcdatamodel */,
+			);
+			currentVersion = 8FA58DCD18F2A42B00FC432B /* GasSamples.xcdatamodel */;
+			path = GasSamples.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 49DFC0C8163F6CD700251742 /* Project object */;
 }

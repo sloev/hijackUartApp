@@ -1,5 +1,5 @@
 //
-//  newSample.h
+//  NewSample.h
 //  Smokalyzer
 //
 //  Created by johannes on 4/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface newSample : UITableViewController
+@interface NewSample : UIViewController
 
 @end
