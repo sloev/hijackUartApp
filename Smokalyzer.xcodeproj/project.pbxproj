@@ -42,8 +42,8 @@
 		49DFC0DF163F6CD700251742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49DFC0E1163F6CD700251742 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49DFC0E3163F6CD700251742 /* Smokalyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smokalyzer-Prefix.pch"; sourceTree = "<group>"; };
-		49DFC0E4163F6CD700251742 /* AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; name = AppDelegate.h; path = Smokalyzer/AppDelegate.h; sourceTree = "<group>"; };
-		49DFC0E5163F6CD700251742 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Smokalyzer/AppDelegate.mm; sourceTree = "<group>"; };
+		49DFC0E4163F6CD700251742 /* AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49DFC0E5163F6CD700251742 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		49DFC0E7163F6CD700251742 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		49DFC0E9163F6CD700251742 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		49DFC0EB163F6CD700251742 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -125,6 +125,8 @@
 		49DFC0DB163F6CD700251742 /* Smokalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				49DFC0E4163F6CD700251742 /* AppDelegate.h */,
+				49DFC0E5163F6CD700251742 /* AppDelegate.mm */,
 				8F8A58A218F28975008B61EA /* newSample.h */,
 				8F8A58A318F28975008B61EA /* newSample.m */,
 				8F8A589C18F19ABA008B61EA /* samples.h */,
@@ -167,8 +169,6 @@
 				49DFC10A163F72FF00251742 /* CAStreamBasicDescription.h */,
 				49DFC10B163F72FF00251742 /* CAXException.h */,
 				49DFC0FF163F706000251742 /* HiJackMgr.h */,
-				49DFC0E4163F6CD700251742 /* AppDelegate.h */,
-				49DFC0E5163F6CD700251742 /* AppDelegate.mm */,
 				8FA58DD518F2A4F000FC432B /* core data */,
 			);
 			name = HiJackLib;
